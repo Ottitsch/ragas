@@ -1,3 +1,15 @@
+basic.py (sample size 4):  
+| Question                     | Faithfulness (min–max, range) | Answer Correctness (min–max, range) |
+|------------------------------|-------------------------------|--------------------------------------|
+| First Super Bowl             | 0.5 → 1.0 (**0.5**)          | 0.8489 → 0.8489 (**0.0**)           |
+| Who won the most Super Bowls | 0.0 → 0.0 (**0.0**)          | 0.5079 → 0.5829 (**0.075**)         |
+
+deterministic.py (sample size 4):
+| Question                     | Faithfulness (min–max, range) | Answer Correctness (min–max, range) |
+|------------------------------|-------------------------------|--------------------------------------|
+| First Super Bowl             | 0.0 → 0.0 (**0.0**)          | 0.9989 → 0.9989 (**0.0**)           |
+| Who won the most Super Bowls | 0.0 → 0.0 (**0.0**)          | 0.5829 → 0.5829 (**0.0**)           |
+
 
 ollama pull llama3.1:8b-q4_K_M  
 ollama serve
