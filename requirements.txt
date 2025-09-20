@@ -1,0 +1,9 @@
+python-dotenv
+datasets
+ragas
+pandas
+langchain
+langchain-ollama
+langchain-huggingface
+sentence-transformers
+torch
